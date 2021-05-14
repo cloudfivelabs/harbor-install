@@ -13,4 +13,4 @@ gpg --keyserver hkps://keyserver.ubuntu.com --receive-keys 644FF454C0B4115C
 gpg -v --keyserver hkps://keyserver.ubuntu.com --verify harbor-online-installer-${VERSION}.tgz.asc
 
 ## unpack the installer
-tar xvf $VERSION 
+tar xvf harbor-online-installer-${VERSION}.tgz
