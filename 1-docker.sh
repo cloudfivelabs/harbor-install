@@ -1,4 +1,4 @@
-DOCKER_COMPOSE="2.9.0"
+DOCKER_COMPOSE="3.8"
 
 ## remove old versions
 sudo apt-get remove docker docker-engine docker.io containerd runc
