@@ -1,4 +1,4 @@
-HARBOR_VERSION="v2.4.3"
+HARBOR_VERSION="v2.8.0"
 
 ## download the installer
 curl -LO https://github.com/goharbor/harbor/releases/download/${HARBOR_VERSION}/harbor-online-installer-${HARBOR_VERSION}.tgz
