@@ -30,7 +30,9 @@ run `./3-https.sh`
 
     * `private_key: /etc/letsencrypt/live/harbor.example.net/privkey.pem`
 
-**Optional**: Change the `./4-harbor.sh` script to run without _clair_ , _notary_ or _chartmuseum_ if desired.
+**Optional**: Change the `./4-harbor.sh` script to run without _clair_ 
+
+NOTE: _notary_ and _chartmuseum_ have been deprecated.
 
 run `./4-harbor.sh`
 
