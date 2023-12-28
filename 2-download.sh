@@ -1,3 +1,6 @@
+#!/usr/bin/env bash
+set -euxo pipefail
+
 HARBOR_VERSION="v2.10.0"
 
 ## download the installer

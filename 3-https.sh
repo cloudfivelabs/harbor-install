@@ -1,7 +1,10 @@
+#!/usr/bin/env bash
+set -euxo pipefail
+
 DOMAIN="harbor.example.net"
 EMAIL="user@example.net"
 
-sudo apt-get install certbot
+sudo apt-get install --yes certbot
 sudo certbot certonly --standalone -d $DOMAIN --preferred-challenge http --agree-tos -n -m $EMAIL --keep-until-expiring
 
 exit
