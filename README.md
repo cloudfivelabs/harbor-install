@@ -32,7 +32,7 @@ run `./3-https.sh`
 
 **Optional**: Change the `./4-harbor.sh` script to run without _clair_ 
 
-NOTE:The _notary_ and _chartmuseum_ options have been deprecated.
+**NOTE** :The _notary_ and _chartmuseum_ options have been deprecated.
 
 run `./4-harbor.sh`
 
